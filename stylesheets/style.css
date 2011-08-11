@@ -1,0 +1,15 @@
+.faces, a[href="/lol"]:after { width: 25px; height: 25px; content: " "; background-image: url(%%mega%%); display: inline-block; }
+
+.usertext-body a { display: inline-block; }
+
+a[href="/lol"]:after { background-position: 0px -120px; }
+
+.author[href*="user/BritishEnglishPolice"] { font-size: 0pt; color: white; }
+
+.author[href*="user/BritishEnglishPolice"]:after { font-size: 5pt; content: 'BEP'; color: #C0C0C0; }
+
+.domain a[href*="cheezburger.com"], .md a[href="/warning"]:after { background: white url(%%warningicon%%) no-repeat center left; display: inline-block; }
+
+.domain a[href*="cheezburger.com"] { padding-left: 16px; }
+
+.md a[href="/warning"]:after { width: 14px; height: 14px; content: ""; }

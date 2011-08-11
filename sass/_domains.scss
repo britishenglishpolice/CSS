@@ -1,0 +1,12 @@
+.domain a[href*="cheezburger.com"], .md a[href="/warning"]:after {
+        background: #fff url(%%warningicon%%) no-repeat center left;
+        display: inline-block;
+}
+.domain a[href*="cheezburger.com"] {
+    padding-left: 16px;
+}
+.md a[href="/warning"]:after {
+    width: 14px;
+    height: 14px;
+    content: "";
+}

@@ -1,0 +1,23 @@
+//Main faces styles, these are inherited by all other faces that call this block
+.faces {
+    width: 25px;
+    height: 25px;
+    content: " ";
+    background-image: url(%%mega%%);
+    display: inline-block;
+}
+//Chrome bug fix
+.usertext-body a { display: inline-block; }
+
+
+//When creating new faces, please follow this syntax
+// a[href="/facename"]:after {
+//    @extend .faces;
+//    other css here
+//}
+//It is important that you get the @extend block, this makes the code much easier to edit
+
+a[href="/lol"]:after {
+    @extend .faces;
+    background-position: 0px -120px;
+}

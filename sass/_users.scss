@@ -1,0 +1,12 @@
+//This is for user and moderator tags. While most of these could be replaced with flair,
+//people may still want their own special styles
+
+.author[href*="user/BritishEnglishPolice"] {
+    font-size:0pt;
+    color:white;
+}
+.author[href*="user/BritishEnglishPolice"]:after {
+    font-size:5pt;
+    content: 'BEP';
+    color:#C0C0C0;
+}
