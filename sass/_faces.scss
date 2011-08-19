@@ -311,9 +311,15 @@ a[href="/red"]:after {
     height: 30px;
     width: 34px;
 }
-a[href="/bepislaughingatyou"]:after {
+a[href="/bepislaughingatyourmum"]:after {
     @extend .faces;
     background-position: 0 -180px;
+    height: 30px;
+    width: 30px;
+}
+a[href="/nomegusta"]:after {
+    @extend .faces;
+    background-position: 0 -270px;
     height: 30px;
     width: 30px;
 }
